@@ -1,0 +1,618 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nvbr {
+    background: #0E1034 !important;
+}
+
+/* ==== button start ==== */
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn-5 {
+    width: auto;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: rgb(255, 27, 0);
+    background: linear-gradient(0deg, rgba(255, 27, 0, 1) 0%, rgba(251, 75, 2, 1) 100%);
+    padding: 8px;
+    margin-right: 6%;
+}
+
+.btn-5:hover {
+    color: #f0094a;
+    background: transparent;
+    box-shadow: none;
+}
+
+.btn-5:before,
+.btn-5:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #f0094a;
+    box-shadow:
+        -1px -1px 5px 0px #fff,
+        7px 7px 20px 0px #0003,
+        4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+.btn-5:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.btn-5:hover:before,
+.btn-5:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+/* ==== button end ==== */
+
+/* ==== navbar start ==== */
+
+.main-ul {
+    margin: auto !important;
+    gap: 25px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #F06768 !important;
+}
+
+.active {
+    color: #F06768 !important;
+}
+
+.nvfluid {
+    width: 70% !important;
+}
+
+/* ==== navbar end ==== */
+
+/* ===== hero section start ==== */
+
+.hiro-main {
+    background: #0E1034;
+    padding: 2%;
+}
+
+.hirobgmain {
+    background: url(../images/hiro-bg.png) no-repeat;
+    text-align: center;
+    background-size: cover;
+    width: 70% !important;
+}
+
+.hiro-pera {
+    color: white;
+    font-size: 20px;
+    width: 52%;
+    margin: auto;
+    padding-bottom: 15%;
+}
+
+.hiro-head {
+    color: white;
+    padding-top: 15%;
+}
+
+.clr {
+    color: #F06768;
+}
+
+/* ===== hero section End =====  */
+
+/* ==== contant section start ==== */
+
+.slider-cnctnt {
+    background: #0E1034;
+    padding: 2%;
+}
+
+.slider-pera {
+    color: white;
+    text-align: center;
+}
+
+.slider-img-mainrw {
+    /* background: red; */
+    padding: 2%;
+    width: 66%;
+    margin: auto !important;
+}
+
+.slider-img-mainrw .col-md-3 {
+    padding: 0% !important;
+    text-align: center;
+}
+
+.imgf {
+    width: 68% !important;
+}
+
+/* ===== containt section start ===== */
+
+/* ===== containt sction one start==== */
+
+.rcone {
+    padding: 1%;
+    background: #0E1034;
+}
+
+.cnct-one-rw {
+    width: 70%;
+    margin: auto !important;
+    padding: 2%;
+}
+
+.mn-pera-cnct {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
+
+/* ===== containt sction one End ==== */
+
+/* ==== contant section -3 start ==== */
+
+.cnct-sec-3-mn {
+    padding: 1%;
+    background: #0E1034;
+}
+
+.cnct-rw-3 {
+    width: 70%;
+    padding: 2%;
+    background: url(../images/sec-three.png)no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin: auto !important;
+}
+
+.cnct-three-head {
+    color: black;
+    font-size: 37px;
+}
+
+.cnct-three-pera {
+    font-size: 15px;
+}
+
+/* ==== contant section -3 start ==== */
+
+/* ==== containt section -4 start ==== */
+
+.cnct-sec-four-head {
+    color: white !important;
+    margin-left: 16%;
+    margin-top: 3%;
+}
+
+.card-main-rw {
+    width: 77%;
+    margin: auto !important;
+    padding: 2%;
+    /* background: pink; */
+}
+
+.card-one-main {
+    /* background: red; */
+    padding: 10%;
+}
+
+.quetimg {
+    width: 12% !important;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.card {
+    background: #ffffff2e !important;
+    border-radius: 18px !important;
+}
+
+.readmore-rw {
+    width: 100%;
+    margin: auto !important;
+    /* background: red; */
+    padding: 1%;
+}
+
+.readmore-pera-one {
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.readmore-pera-two {
+    color: white;
+    font-size: 13px;
+}
+
+.crdpera {
+    width: 82%;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.card-main-rw .col-md-4 {
+    padding: 0% !important;
+}
+
+/* ==== containt section four End ==== */
+
+/* ===== containt section-five start ===== */
+
+.cnct-rw-5 {
+    width: 70%;
+    padding: 2%;
+    background: url(../images/sec-5-image.png) no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin: auto !important;
+}
+
+.cnct-fivepera {
+    color: #ffffffab;
+}
+
+.txt-blt {
+    font-weight: 600;
+}
+
+.lft-crd {
+    background: #0E1034;
+    padding: 1%;
+    border-radius: 18px;
+}
+
+.accordion-item {
+    background-color: transparent !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white !important;
+    background-color: transparent !important;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: white !important;
+    text-align: left;
+    background-color: transparent !important;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+}
+
+.accordion-body {
+    padding: 1rem 1.25rem;
+    color: #ffffff7a;
+    text-align: left;
+}
+
+/* ===== containt section-five end ===== */
+
+/* ========== containt section-6 start ========== */
+
+.invstd-aline {
+    padding: 2%;
+    background: url(../images/sec-6bg-mn.png)no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    width: 70%;
+    margin: auto !important;
+}
+
+.demand-one {
+    padding: 5%;
+    background: #641112a6;
+    border-radius: 18px;
+}
+
+.mbpera {
+    margin-bottom: 20%;
+}
+
+/* ========== containt section-6 End ========== */
+
+/* ========== containt-section-7 start ========== */
+
+.cmn-section {
+    padding: 0% !important;
+    background: white;
+    width: 70%;
+    margin: auto !important;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.brdesus {
+    border-top-right-radius: 18px;
+}
+
+/* ========== containt-section-7 End ========== */
+
+/* <!-- ========== containt-section-8 start ========== --> */
+
+.c-s8main {
+    text-align: center;
+    background: url(../images/section-eyght.png) no-repeat;
+    background-position-y: 27%;
+    color: white;
+    background-size: cover;
+}
+
+.c-smain-head {
+    width: 46%;
+    margin: auto;
+}
+
+.c-s8btn {
+    margin: 0% !important;
+}
+
+/* <!-- ========== containt-section-8 End ========== --> */
+
+/* <!-- ========== containt-section-9 start ========== --> */
+
+.sctn-9-head {
+    color: white;
+}
+
+.why-choose {
+    padding: 0% !important;
+    width: 70%;
+    margin: auto !important;
+}
+
+/* <!-- ========== containt-section-9 End ========== --> */
+
+/* ========== footer start ========== */
+
+.ftr-mn-rw {
+    width: 70%;
+    margin: auto !important;
+    padding: 2%;
+}
+
+.ftr-ulmn {
+    padding: 0%;
+    line-height: 3;
+}
+
+.ftr-ulmn li {
+    list-style: none !important;
+}
+
+.ftr-ulmn li a {
+    text-decoration: none;
+    color: #ffffffb8;
+}
+
+.cnct-form-mn {
+    background: white;
+    padding: 8%;
+    border-radius: 18px;
+}
+
+.fname {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #000000a6;
+    outline: none;
+}
+
+.itpmndv {
+    margin-top: 4%;
+}
+
+.frm-sbmtbtn {
+    width: 100%;
+    background: transparent;
+    padding: 3%;
+    border: none;
+    border: 1px solid #9f9e9e;
+    border-radius: 8px;
+    color: #9f9e9e;
+    margin-top: 8%;
+}
+
+.fssz {
+    font-size: 12px;
+}
+
+.sprtline {
+    color: white;
+    height: 2px !important;
+    width: 70%;
+    margin: auto;
+}
+
+.copyrightrw {
+    width: 70%;
+    padding: 2%;
+    margin: auto !important;
+}
+
+.ftr-one-pera {
+    color: white;
+    font-weight: 500;
+}
+
+.ftr-mn-one p {
+    margin-bottom: 0%;
+}
+
+.ftr-mn-one {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.bi-columns-gap {
+    color: white;
+}
+
+.main-img-cnct {
+    padding: 10%;
+}
+
+
+/* ========== footer End ========== */
+
+@media only screen and (max-width: 767px) {
+
+    .navbar-toggler {
+        box-shadow: none !important;
+    }
+
+    .main-ul {
+        margin: auto !important;
+        gap: 3px;
+    }
+
+    .hirobgmain {
+        background-size: cover;
+        width: 95% !important;
+    }
+
+    .hiro-pera {
+        width: 100%;
+    }
+
+    .hiro-pera {
+        color: white;
+        font-size: 20px;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 15%;
+    }
+
+    .cnct-one-rw,
+    .cnct-rw-3,
+    .card-main-rw,
+    .cnct-rw-5,
+    .invstd-aline,
+    .cmn-section,
+    .ftr-mn-rw,
+    .copyrightrw,
+    .c-smain-head,
+    .sprtline,
+    .nvfluid
+    {
+        width: 95% !important;
+    }
+
+    .cnct-three-head,
+    .cnct-sec-four-head {
+        font-size: 26px;
+    }
+
+    .card-one-main {
+        padding: 2%;
+    }
+
+    .readmore-rw .col-md-4 {
+        width: 25%;
+    }
+
+    .readmore-rw .col-md-8 {
+        width: 75%;
+    }
+
+    .readmore-pera-one {
+        font-size: 12px;
+    }
+
+    .main-img-cnct {
+        padding: 0%;
+    }
+
+    .ftr-ulmn {
+        line-height: 2;
+    }
+
+    .ftr-mn-rw .col-md-2 {
+        margin-top: 5%;
+    }
+
+
+    .cnct-form-mn {
+        padding: 5%;
+    }
+
+    .copyrightrw .col-md-4,
+    .sprtline {
+        margin-top: 8%;
+    }
+
+    .right-side-dmndv h1 {
+        margin-top: 6%;
+    }
+
+    .cnct-sec-four-head {
+        margin: 0;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 464px) { 
+
+    .hirobgmain {
+        background-size: contain;
+        width: 95% !important;
+    }
+
+ }
